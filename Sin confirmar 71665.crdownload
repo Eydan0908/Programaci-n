@@ -1,0 +1,12 @@
+import tkinder as tk
+tasas_cambio = {
+    'USD': 1.0,      # Dólar estadounidense
+    'EUR': 0.85,     # Euro
+    def convertir_moneda(cantidad, de_moneda, a_moneda):
+    try:
+    cantidad = float(entrdada_cantidad.get())
+    tipo_cambio = seleccion get()
+    tasa = tasas cambio[tipo_cambio]
+    resultado = cantidad * tasa
+    etiqueta_resultado.config(text=f"Resultado: {resultado:.2f} {a_moneda}")
+    except ValueError:

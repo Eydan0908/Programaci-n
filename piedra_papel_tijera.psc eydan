@@ -1,0 +1,29 @@
+Algoritmo piedra_papel_tijera
+	definir usuario, PC Como Entero
+	pc =Azar (3)+1
+	escribir "escoja"
+	escribir " 1 - piedra"
+	escribir " 2 - tijeras"
+	escribir " 3 - papel2"
+	leer usuario
+	
+	Si pc= usuario Entonces
+		escribir " empate"
+	Sino
+		Si pc = 1 y usuario = 2 Entonces
+			escribir " usted gana, usted escogio el papel y la pc piedra2
+			Si pc = 2 y usuario  = 1  Entonces
+				escribir " escribir la pc gana, ustsed escogio piedra, y la pc papel
+                Si pc = 3 y usuario =2 entonces
+					escribir " la pc gana usted 
+				SiNo
+					acciones_por_falso
+				Fin Si
+			SiNo
+				acciones_por_falso
+			Fin Si
+         
+	     
+		Fin Si
+	Fin Si
+FinAlgoritmo

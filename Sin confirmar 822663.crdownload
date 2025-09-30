@@ -1,0 +1,9 @@
+listadenumeros = [10, 5, 20, 15, 25]
+numeros= [10, 5, 20, 15, 25
+print(numeros)
+numeros.remove(%)
+print(numeros)
+ultimo = numeros.po()
+print(ultimo)
+numeros.sort()
+print(numeros)]]

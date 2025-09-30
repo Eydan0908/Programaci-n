@@ -1,0 +1,8 @@
+colores = ["rojo", "verde", "azul",]
+print ( " la litsa inicial de colores es", colores)
+colores[1] = "amarillo"
+print ( " la nueva lista de colores es", colores)
+colores.append("morado")
+print ( " la lista de colores despues de agregar un nuevo color es", colores)
+colores [1:1]= ["naranja"]
+print ( " la nueva lista de colores despues de agregar un nuevo color es", colores)

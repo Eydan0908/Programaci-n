@@ -1,0 +1,5 @@
+listadefrutas = ["manzana", "banana", "cereza", "datil"]
+print listadefrutas
+print ("el primer elemento de la lista es:", listadefrutas[0])
+print ("el ultimo ekemento de la lista es:", listadefrutas[-1])"
+print ("el segundo elemento de la lista es:", listadefrutas[2])
